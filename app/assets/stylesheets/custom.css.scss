@@ -1,4 +1,4 @@
-$navbar-default-bg: #08088A;
+$navbar-default-bg: black;
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
@@ -9,4 +9,38 @@ $navbar-default-bg: #08088A;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  height: 550px;
+  background-color: indianred;
+}
+
+.btn-lg:hover {
+  color: red;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eae;
+  color: #777;
+  a:hover {
+    color: #222;
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
